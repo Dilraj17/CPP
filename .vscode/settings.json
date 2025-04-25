@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "random": "cpp",
+        "iostream": "cpp"
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "username": "root",
+            "password": "Root",
+            "connectionTimeout": 30,
+            "database": "demo"
+        }
+    ]
+}
